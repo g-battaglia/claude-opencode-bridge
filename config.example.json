@@ -1,0 +1,9 @@
+{
+  "default_mode": "manual",
+  "agents": {
+    "my-agent": {
+      "mode": "auto",
+      "description_override": "Optional: override the agent's description for Claude"
+    }
+  }
+}

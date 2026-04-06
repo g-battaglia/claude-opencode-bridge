@@ -1,3 +1,5 @@
 node_modules/
 # Generated at session start by bin/sync-agents.mjs
 agents/
+# User-specific agent modes — use config.example.json as template
+config.json

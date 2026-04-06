@@ -68,7 +68,13 @@ Each OpenCode agent has an invocation mode that controls whether Claude can use 
 | `auto` | Claude can use this agent proactively, whenever it judges it appropriate |
 | `manual` | Claude uses this agent **only** when you explicitly ask for it |
 
-Edit `config.json` in the plugin root:
+Copy the example and edit it:
+
+```bash
+cp config.example.json config.json
+```
+
+Then customize `config.json`:
 
 ```json
 {
@@ -216,7 +222,8 @@ claude-opencode-bridge/
 ├── .claude-plugin/
 │   └── plugin.json         # Plugin manifest (name, version, description)
 ├── .mcp.json               # MCP server config — auto-starts on plugin load
-├── config.json             # Agent invocation modes (auto/manual)
+├── config.json             # Your agent modes — gitignored, create from config.example.json
+├── config.example.json     # Template for config.json
 ├── bin/
 │   └── sync-agents.mjs     # Generates agents/ from OpenCode config at session start
 ├── agents/                  # Auto-generated — one wrapper per OpenCode agent (gitignored)
