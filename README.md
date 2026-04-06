@@ -68,9 +68,10 @@ Each OpenCode agent has an invocation mode that controls whether Claude can use 
 | `auto` | Claude can use this agent proactively, whenever it judges it appropriate |
 | `manual` | Claude uses this agent **only** when you explicitly ask for it |
 
-Copy the example and edit it:
+The file lives in the **plugin root directory** (next to `plugin.json` and `package.json`). Copy the example to get started:
 
 ```bash
+cd /path/to/claude-opencode-bridge   # wherever you cloned/installed the plugin
 cp config.example.json config.json
 ```
 
