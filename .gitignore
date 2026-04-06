@@ -1,0 +1,3 @@
+node_modules/
+# Generated at session start by bin/sync-agents.mjs
+agents/

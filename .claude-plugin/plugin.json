@@ -1,0 +1,8 @@
+{
+  "name": "opencode",
+  "description": "Orchestrate OpenCode agents from Claude Code. Discover, launch, and coordinate OpenCode agents — including parallel execution.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Giacomo"
+  }
+}

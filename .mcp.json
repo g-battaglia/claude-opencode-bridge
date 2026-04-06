@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "opencode": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/src/server.mjs"],
+      "env": {
+        "NODE_PATH": "${CLAUDE_PLUGIN_DATA}/node_modules"
+      }
+    }
+  }
+}
